@@ -1,14 +1,15 @@
-.{
+*{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 #navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:azure;
-    padding-left: 80px;
+    background-color:brown
+    
 }
 .nav-links{
     list-style: none;
@@ -30,4 +31,24 @@
     padding: 15px;
     font-size: 18px;
 
+}
+.hero-section{
+    background-image: url(./images/hero-bg.png);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+.top-bttn {
+    background-color: red;
+    display: flex;
+    margin-left: 600px;
+    position: relative;
+    margin-top: 100px;
+    width: 180;
+    height: 25px;
+}
+.hero-banner1{
+    text-transform: capitalize;
+    align-items: center;
 }
