@@ -1,0 +1,33 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:azure;
+    padding-left: 80px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.nav-bttn{
+
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 18px;
+
+}
