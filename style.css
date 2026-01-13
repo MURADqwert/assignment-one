@@ -100,42 +100,19 @@
 
 .bottom-section{
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     justify-content: center;
     gap: 40px;
-   
-    
 }
 
-.scatter{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-    
+.card{
+    background-color: white;
+    color: black;
 }
+.icon-circle{
 
-.bookmark{
-    background-color: blueviolet;
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-   
-
-}
-
-.no-idea{
-    background-color: yellow;
-    width: 200px;
-    height: 200px;
-    border-radius: 8px;
-}
-
-.forgetting{
-background-color: chartreuse;
-width: 200px;
-    height: 200px;
-    border-radius: 8px;
 
 }
