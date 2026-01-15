@@ -99,12 +99,13 @@ text-decoration: none;
 }
 
 .main-text{
-    text-transform: capitalize;
+    
     padding-top: 80px;
     padding-bottom: 60px;
 
 }
 .main-text h1 {
+    text-transform: capitalize;
     color: white;
     font-size: 70px;
 }
