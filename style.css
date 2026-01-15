@@ -148,4 +148,70 @@
     display: flex;
     justify-content: center;
     gap: 100px;
+    margin: 0;
+}
+
+.knowledge img{
+    width: 450px;
+    height: 450px;
+}
+
+.brain-content{
+    padding-top: 50px;
+
+}
+.brain-content h6{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(5, 112, 126);
+
+}
+
+.brain-content h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: rgb(0, 0,0)    
+
+}
+.brain-content p{
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: rgb(63, 62, 62)
+    
+}
+.brain-list{
+
+    padding-left: 0;
+}
+.brain-list li {
+    font-size: 14px;
+    padding: 6px;
+   display: flex;
+   align-items: center;
+    gap: 10px;
+}
+.brain-list li i{
+    width: 15px;
+    height: 15px;
+    
+   background-color: red;
+   color: white;
+   border-radius: 50%;
+}
+
+.early-access{
+    background-color: blueviolet;
+    justify-content: center;
+    align-self: center;
+}
+.access-content{
+
+text-align: center;
+
+}
+.access-bttn{
+
+    text-align: center;
 }
