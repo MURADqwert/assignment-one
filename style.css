@@ -6,6 +6,7 @@
 }
 #navbar{
     display: flex;
+    padding: 50px;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -27,9 +28,9 @@
 .nav-bttn{
 
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: green;
-    color: aliceblue;
+    color: rgb(235, 238, 241);
     padding: 15px;
     font-size: 18px;
 
@@ -39,7 +40,7 @@
 .hero-section{
     background-image: url(./images/hero-bg.png);
     background-size: cover;
-    height: 500px;
+   /* height: 500px; */
     
 }
 .hero-banner{
@@ -49,6 +50,7 @@
     text-align: center;
     color: white;
     padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
     
 }
@@ -196,7 +198,7 @@
     width: 15px;
     height: 15px;
     
-   background-color: red;
+   background-color:green;
    color: white;
    border-radius: 50%;
 }
@@ -214,4 +216,60 @@ text-align: center;
 .access-bttn{
 
     text-align: center;
+}
+
+.acc-bttn{
+
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* Footer Section start */
+.ft-section{
+
+    background-color: rgb(10, 10, 77);
+    color: white;
+   padding: 50px 80px 30px;
+}
+.footer-top{
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.footer-social h5 {
+
+   margin-bottom: 10px;
+   font-size: 15px;
+}
+.social-icon{
+    display: flex;
+    gap: 16px;
+}
+.social-icon i{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.ft-section hr{
+    border: none;
+    border-top: 1px solid rgb(223, 220, 220,0.2);
+    margin: 40px 0 20px;
+}
+.footer-bottom{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.6;
 }
